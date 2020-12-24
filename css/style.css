@@ -1,5 +1,7 @@
+
 body {
-  /* font-family: sans-serif; */
+  /* Computer Font not like a book for the APP */
+  font-family: sans-serif; 
 }
 
 /* Make content area fill the entire browser window */
