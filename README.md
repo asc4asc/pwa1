@@ -1,6 +1,8 @@
-# Hello PWA (only a copy please use the original !!!)
+# Hallo PWA (Only a copy please use the original !!!)
 
-The classic Hello World program as a Progressive Web App
+Das klassische "Hello World" program als "Progressive Web App"
+
+Ich habe meine erste App. hinzugefügt ein einfacher Button der hochzählt...... 
 
 I've also written a tutorial to go along with the code. Read it on Medium:
 
