@@ -1,8 +1,8 @@
 "use strict";  
 
 class countButton {
-  constructor() {    
-    this.tmp=document.querySelector('BUTTON');
+  constructor(button) {    
+    this.tmp=document.querySelector(button);
     this.n=this.tmp.innerHTML;
   }
   doit() {
@@ -13,9 +13,10 @@ class countButton {
   }
 };     
 
+var b1 = new countButton('BUTTON');
 document.body.addEventListener("click", event => {
  if (event.target.nodeName == "BUTTON") {
-   var b1 = new countButton();
+   /* var b1 = new countButton(); */
    b1.doit();
    /* console.log("Clicked", event.target.textContent); */ /* Debug */
  }
