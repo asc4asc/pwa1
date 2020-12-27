@@ -29,7 +29,8 @@ html,
 button1,button2 {
   font-size: 2rem;
   color: green;
-  padding: 15px 64px;
+  padding: 15px;
+  width: 30%;
   text-align: center;
   text-decoration: none;
   display: inline-block;
