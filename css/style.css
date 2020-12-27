@@ -25,3 +25,8 @@ html,
   font-size: 3rem;
   color: red;
 }
+
+.button {
+  font-size: 2rem;
+  color: green;
+}
