@@ -2,8 +2,8 @@
 
 class countButton {
   constructor() {    
-    let this.tmp=document.querySelector('BUTTON');
-    let this.n=tmp.innerHTML;
+    this.tmp=document.querySelector('BUTTON');
+    this.n=tmp.innerHTML;
   }
   doit() {
     /* let tmp=document.querySelector('BUTTON'); */
