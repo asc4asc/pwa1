@@ -15,7 +15,8 @@ class countButton {
 
 document.body.addEventListener("click", event => {
  if (event.target.nodeName == "BUTTON") {
-   countButton.doit();
+   var b1 = new countButton();
+   b1.doit();
    /* console.log("Clicked", event.target.textContent); */ /* Debug */
  }
 });
