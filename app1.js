@@ -2,10 +2,11 @@
 
 class countButton {
   constructor() {    
-    let n=1; /* momentan leer */
+    let tmp=document.querySelector('BUTTON');
+    let n=tmp.innerHTML;
   }
   doit() {
-    let tmp=document.querySelector('BUTTON');
+    /* let tmp=document.querySelector('BUTTON'); */
     var n=tmp.innerHTML;
     n=n*1+1;  
     tmp.style.backgroundColor = "yellow";
