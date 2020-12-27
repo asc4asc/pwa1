@@ -1,7 +1,7 @@
 "use strict";  
 
 class countButton {
-  constructor(button,maxcount) {    
+  constructor(button,maxcount=5) {    
     this.tmp=document.querySelector(button);
     this.n=this.tmp.innerHTML;
     this.maxcount=maxcount;
