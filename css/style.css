@@ -26,7 +26,7 @@ html,
   color: red;
 }
 
-button {
+button,button2 {
   font-size: 2rem;
   color: green;
 }
