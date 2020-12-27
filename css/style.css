@@ -35,5 +35,5 @@ button1,button2 {
   text-decoration: none;
   display: inline-block;
   border-radius: 12px;
-  border-color: black;
+  border: 2px solid black;
 }
