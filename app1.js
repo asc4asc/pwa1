@@ -11,7 +11,7 @@ class countButton {
       this.n=this.n*1+1;
       this.tmp.style.backgroundColor = "yellow";
     } else {
-      this.n=V;
+      this.n="V";
       this.tmp.style.backgroundColor = "red";
     }     
     this.tmp.innerText = this.n;
