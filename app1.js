@@ -2,15 +2,15 @@
 
 class countButton {
   constructor() {    
-    let tmp=document.querySelector('BUTTON');
-    let n=tmp.innerHTML;
+    let this.tmp=document.querySelector('BUTTON');
+    let this.n=tmp.innerHTML;
   }
   doit() {
     /* let tmp=document.querySelector('BUTTON'); */
-    var n=tmp.innerHTML;
-    n=n*1+1;  
-    tmp.style.backgroundColor = "yellow";
-    tmp.innerText = n;
+    var n=this.tmp.innerHTML;
+    this.n=this.n*1+1;  
+    this.tmp.style.backgroundColor = "yellow";
+    this.tmp.innerText = n;
   }
 };     
 
