@@ -19,6 +19,6 @@ document.body.addEventListener("click", event => {
    b1.doit();
  }
  else {
-   b2.doit()
+   b2.doit();
  }
 });
