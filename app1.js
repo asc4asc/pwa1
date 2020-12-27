@@ -1,7 +1,7 @@
 "use strict";  
 document.body.addEventListener("click", event => {
  if (event.target.nodeName == "BUTTON") {
-   countButton();
+   countButton.doit();
    /* console.log("Clicked", event.target.textContent); */ /* Debug */
  }
 });
