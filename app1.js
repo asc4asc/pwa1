@@ -7,7 +7,7 @@ class countButton {
     this.maxcount=maxcount;
   }
   doit() {
-    if (n < this.maxcount) { 
+    if (this.n < this.maxcount) { 
       this.n=this.n*1+1;
       this.tmp.style.backgroundColor = "yellow";
     } else {
