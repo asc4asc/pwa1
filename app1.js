@@ -7,10 +7,9 @@ class countButton {
   }
   doit() {
     /* let tmp=document.querySelector('BUTTON'); */
-    var n=this.tmp.innerHTML;
     this.n=this.n*1+1;  
     this.tmp.style.backgroundColor = "yellow";
-    this.tmp.innerText = n;
+    this.tmp.innerText = this.n;
   }
 };     
 
