@@ -12,10 +12,10 @@ class countButton {
   }
 };     
 
-var b1 = new countButton('BUTTON');
+var b1 = new countButton('BUTTON1');
 var b2 = new countButton('BUTTON2');
 document.body.addEventListener("click", event => {
- if (event.target.nodeName == "BUTTON") {
+ if (event.target.nodeName == "BUTTON1") {
    b1.doit();
  }
  else {
