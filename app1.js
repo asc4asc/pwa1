@@ -1,13 +1,19 @@
 "use strict";  
 
 class countButton {
-  constructor(button) {    
+  constructor(button,maxcount=5) {    
     this.tmp=document.querySelector(button);
     this.n=this.tmp.innerHTML;
+    this.maxcount=maxcount;
   }
   doit() {
-    this.n=this.n*1+1;  
-    this.tmp.style.backgroundColor = "yellow";
+    if (n>15) { 
+      this.n=this.n*1+1;
+      this.tmp.style.backgroundColor = "yellow";
+    else {
+      this.n=V
+      this.tmp.style.backgroundColor = "red";
+    }     
     this.tmp.innerText = this.n;
   }
 };     
