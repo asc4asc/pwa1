@@ -18,8 +18,8 @@ class countButton {
   }
 };     
 
-var b1 = new countButton('BUTTON1');
-var b2 = new countButton('BUTTON2');
+var b1 = new countButton('BUTTON1',15);
+var b2 = new countButton('BUTTON2',15);
 document.body.addEventListener("click", event => {
  if (event.target.nodeName == "BUTTON1") {
    b1.doit();
