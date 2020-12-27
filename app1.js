@@ -1,7 +1,7 @@
 "use strict";  
 document.body.addEventListener("click", event => {
  if (event.target.nodeName == "BUTTON") {
-   tmp=document.querySelector('BUTTON');
+   let tmp=document.querySelector('BUTTON');
    var n=document.querySelector('BUTTON').innerHTML;
    n=n*1+1;  
    tmp.style.backgroundColor = "yellow";
