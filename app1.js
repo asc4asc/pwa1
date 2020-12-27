@@ -17,7 +17,8 @@ var b2 = new countButton('BUTTON2');
 document.body.addEventListener("click", event => {
  if (event.target.nodeName == "BUTTON") {
    b1.doit();
-   /* console.log("Clicked", event.target.textContent); */ /* Debug */
+ }
+ else {
    b2.doit()
  }
 });
