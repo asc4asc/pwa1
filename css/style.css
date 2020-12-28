@@ -39,11 +39,8 @@ button1,button2,button3 {
 }
 
 clock {
-  font-size: 10%;
   color: black;
   padding: 15px;
-  width: 60%;
+  width: 100%;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
 }
