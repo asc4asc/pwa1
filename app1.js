@@ -1,6 +1,8 @@
 "use strict";  
 
 let tmp=document.querySelector("body");
+let tmp1=document.querySelector("clock");
+
 tmp.style.backgroundColor = "blue";
 
 (function () {
@@ -11,8 +13,7 @@ tmp.style.backgroundColor = "blue";
 			s = jetzt.getSeconds();
 		m = fuehrendeNull(m);
 		s = fuehrendeNull(s);
-		document.getElementById('uhr1')
-			.innerHTML = h + ':' + m + ':' + s;
+		tmp1.innerHTML = h + ':' + m + ':' + s;
 		setTimeout(uhrzeit, 500);
 	}
 
