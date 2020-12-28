@@ -7,10 +7,10 @@ class countButton {
     this.maxcount=maxcount;
   }
   doit() {
-    if (this.n < this.maxcount-1) { 
+    if (this.n < this.maxcount-1) { /* check for the End off conuting */
       this.n=this.n*1+1;
       this.tmp.style.backgroundColor = "yellow";
-    } else {
+    } else { /* End of display counting */
       this.n="V";
       this.tmp.style.backgroundColor = "red";
     }     
@@ -18,8 +18,8 @@ class countButton {
   }
 };     
 
-var b1 = new countButton('BUTTON1',15);
-var b2 = new countButton('BUTTON2',15);
+var b1 = new countButton('BUTTON1');
+var b2 = new countButton('BUTTON2');
 document.body.addEventListener("click", event => {
  if (event.target.nodeName == "BUTTON1") {
    b1.doit();
