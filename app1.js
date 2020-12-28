@@ -20,9 +20,16 @@ class countButton {
 var b1 = new countButton('BUTTON1');
 var b2 = new countButton('BUTTON2');
 document.body.addEventListener("click", event => {
- if (event.target.nodeName == "BUTTON1") {
-   b1.doit();
- } else {
-   b2.doit();
- }
+ switch (event.target.nodeName)  {
+    case 'BUTTON1':
+      b1.doit();
+      break;
+    case 'BUTTON2':
+      b2.doit();
+      break;
+    default:
+      b1.doit();
+      b2.doit();
+      break;
+ }    
 });
