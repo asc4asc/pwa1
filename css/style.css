@@ -37,3 +37,15 @@ button1,button2,button3 {
   border-radius: 12px;
   border: 2px solid black;
 }
+
+clock {
+  font-size: 5rem;
+  color: green;
+  padding: 15px;
+  width: 20%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 12px;
+  border: 2px solid black;
+}
