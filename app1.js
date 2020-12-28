@@ -7,13 +7,12 @@ class countButton {
     this.maxcount=maxcount;
   }
   doit() {
-    if (this.n < this.maxcount-1) { /* check for the End off conuting */
-      this.n=this.n*1+1;
+    if (this.n < this.maxcount-1) { 
       this.tmp.style.backgroundColor = "yellow";
-    } else { /* End of display counting */
-      this.n="V";
+    } else { 
       this.tmp.style.backgroundColor = "red";
     }     
+    this.n=this.n*1+1;
     this.tmp.innerText = this.n;
   }
 };     
