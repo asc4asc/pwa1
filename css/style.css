@@ -39,7 +39,7 @@ button1,button2,button3 {
 }
 
 clock {
-  font-size: 50vi;
+  font-size: 50vw;
   color: black;
   padding: 15px;
   width: 100%;
