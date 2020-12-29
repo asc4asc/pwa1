@@ -27,7 +27,7 @@ tmp.style.backgroundColor = "blue";
 let i=1;
 document.body.addEventListener("click", event => {
   if (i == 1) {
-    tmp.style.backgroundColor = "green"; i=0; 
+    tmp.style.backgroundColor = "green"; i=0; window.navigator.vibrate(100);
   } else {
     tmp.style.backgroundColor = "yellow"; i=1; 
     openFullscreen();
